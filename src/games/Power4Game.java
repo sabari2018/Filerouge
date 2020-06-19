@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * Une classe qui represente le jeu de Puissance 4
- * @author groupe cc 26
+ * @author SADOU BARRY
  */
 public class Power4Game extends AbstractGame {
 
@@ -17,7 +17,7 @@ public class Power4Game extends AbstractGame {
      * Initialise une instance du jeu de Puissance4
      * @param firstPlayer  Le premier joueur
      * @param secondPlayer Le second joueur
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     public Power4Game(GamePlayer firstPlayer, GamePlayer secondPlayer) {
         super(firstPlayer, secondPlayer);
@@ -95,7 +95,7 @@ public class Power4Game extends AbstractGame {
      * Une methode interne qui verifie si une colonne n'est pas remplie
      * @param col La colonne
      * @return True si la colonne n'est pas remplie et False si nom
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private boolean isColEmpty(int col){
         for (int i=0; i<6; i++){
@@ -194,7 +194,7 @@ public class Power4Game extends AbstractGame {
 
 
     /**
-     * @author groupe cc 26
+     * @author SADOU BARRY
      * Une methode qui recherche quatre allignements
      * @param col Colonne de depart
      * @param row Ligne de depart
@@ -231,7 +231,7 @@ public class Power4Game extends AbstractGame {
     /**
      * Une methode qui verifie que la grille est pleine
      * @return Retourne True si la grille est remplie ou False si elle n'est pas remplie
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private boolean isFull(){
 
