@@ -9,20 +9,20 @@ import java.util.Objects;
 
 /**
  * Une classe qui represente le jeu de Tictactoe
- * @author groupe cc 26
+ * @author SADOU BARRY
  */
 public class TicTacToe extends AbstractGame {
 
     /**
      * La grille qui represente les cases du jeu Tictactoe
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private GamePlayer[][] grid;
 
     /**
      * @param firstPlayer  Le premier joueur
      * @param secondPlayer Le second joueur
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     public TicTacToe(GamePlayer firstPlayer, GamePlayer secondPlayer) {
         super(firstPlayer, secondPlayer);
@@ -143,7 +143,7 @@ public class TicTacToe extends AbstractGame {
     /**
      * Une methode concrete specifique a la classe Tictactoe qui Test la presence d'un joueur sur une ligne
      * @return Retourne Le GamePlayer qui est present sur toute les cases d'une ligne ou Null dans le cas contraire
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private GamePlayer testLine(){
         GamePlayer p = null;
@@ -177,7 +177,7 @@ public class TicTacToe extends AbstractGame {
     /**
      * Une methode concrete specifique a la classe Tictactoe qui Test la presence d'un joueur sur une colonne
      * @return Retourne Le GamePlayer qui est present sur toute les cases d'une colonne ou Null dans le cas contraire
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private GamePlayer testCol(){
 
@@ -211,7 +211,7 @@ public class TicTacToe extends AbstractGame {
     /**
      * Une methode concrete specifique a la classe Tictactoe qui Test la presence d'un joueur sur la premiere diagonale
      * @return Retourne Le GamePlayer qui est present sur toute les cases de la seconde diagonale ou Null dans le cas contraire
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private GamePlayer testDiagonale1(){
 
