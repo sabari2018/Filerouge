@@ -1,6 +1,6 @@
  I - DESCRIPTON DU PROJET
   ------------------------
- Ce projet consistait à réaliser une application qui permet de faire jouer trois types
+ Ce projet consiste à réaliser une application qui permet de faire jouer trois types
  de joueurs (Humain, IA, Random) à un jeu au choix (Nim, Morpions,Puissance4).
 
  Acquis du projet : classe abstraites, d'interfaces et implémentation d'algorithme d'intelligence artificielle
