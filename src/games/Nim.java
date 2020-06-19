@@ -8,25 +8,25 @@ import java.util.Objects;
 
 /**
  * Une classe qui represente le jeu de Nim
- * @author groupe cc 26
+ * @author SADOU BARRY
  */
 public class Nim extends AbstractGame {
 
     /**
      * Le nombre initial d'allumettes
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private int n;
 
     /**
      * Le nombre courant d'allumettes
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private int current_n;
 
     /**
      *  Le nombre maximal d'allumettes qu'un joueur peut retirer
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     private int k;
 
@@ -35,7 +35,7 @@ public class Nim extends AbstractGame {
      * @param secondPlayer Le second joueur
      * @param n Le nombre initial d'allumettes
      * @param k Le nombre maximal d'allumettes qu'un joueur peut retirer
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     public Nim(GamePlayer firstPlayer, GamePlayer secondPlayer, int n, int k) {
         super(firstPlayer, secondPlayer);
@@ -47,7 +47,7 @@ public class Nim extends AbstractGame {
     /**
      * Une methode concrete retournant le nombre initial d'allumettes
      * @return Le nombre initial d'allumettes
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     public int getInitialNbMatches(){
         return this.n;
@@ -56,7 +56,7 @@ public class Nim extends AbstractGame {
     /**
      * Une methode concrete retournant le nombre courant d'allumettes
      * @return Le nombre courant d'allumettes
-     * @author groupe cc 26
+     * @author SADOU BARRY
      */
     public int getNbMatches(){
         return this.current_n;
